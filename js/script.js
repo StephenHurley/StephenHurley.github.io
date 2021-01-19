@@ -197,7 +197,7 @@ window.requestAnimationFrame(gameloop);
 window.addEventListener('keyup', input);
 window.addEventListener('keydown', input);
 
-
+// handle on click events for each button
 function xonClick(){
     gamerInput = new GamerInput("Left");
 }
@@ -210,6 +210,5 @@ function aonClick(){
 function bonClick(){
 	gamerInput = new GamerInput("Right");
 }
-// handle mouse down events for each button
 
 
