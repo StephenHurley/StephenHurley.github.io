@@ -211,4 +211,14 @@ function bonClick(){
 	gamerInput = new GamerInput("Right");
 }
 
+function onPageLoad(){
+	splitFunction();
+}
+
+function splitFunction() {
+  var url = window.location.search;
+  console.log(url);
+  var result = url.split("="); // Splits string based on =
+  document.getElementById("myGamerTag").innerHTML = result[1];
+}
 
