@@ -210,12 +210,4 @@ function bonClick(){
 	gamerInput = new GamerInput("Right");
 }
 
-function splitFunction() {
-
-  console.log("split function called")
-  var url = window.location.search;
-  console.log(url);
-  var result = url.split("="); // Splits string based on =
-  document.getElementById("WelcomeGamerTag").innerHTML = "Welcome, " + result[1];
-}
 
