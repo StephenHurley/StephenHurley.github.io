@@ -210,7 +210,7 @@ function bonClick(){
 	gamerInput = new GamerInput("Right");
 }
 
-function onPageLoad() {
+function splitFunction() {
 
   console.log("split function called")
   var url = window.location.search;
