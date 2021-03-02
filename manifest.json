@@ -1,6 +1,6 @@
 {
-    "name": "MuddyGames Progressive Web Application",
-    "short_name": "MuddyGames PWA",
+    "name": "BirdSim Progressive Web Application",
+    "short_name": "BirdSim PWA",
 
     "icons": [{
         "src": "img/icons/128_128.png",
