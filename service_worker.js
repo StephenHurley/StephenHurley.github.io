@@ -4,7 +4,7 @@ var filesToCache = [
   './index.html',
   './Game.html',
   './style/styling.css',
-  './js/gameScript.js'
+  './scripts/gameScript.js'
   
 ];
 
