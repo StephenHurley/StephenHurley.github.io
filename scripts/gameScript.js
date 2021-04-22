@@ -359,6 +359,10 @@ function headClicked()
 		player.buttonSelected = "HEAD";
 		processGameLogic();
 	}
+	else
+	{
+		alert("Combat buttons not active!")
+	}
 }
 
 function bodyClicked()
@@ -368,6 +372,10 @@ function bodyClicked()
 		player.buttonSelected = "BODY";
 		processGameLogic();
 	}
+	else
+	{
+		alert("Combat buttons not active!")
+	}
 }
 
 function legsClicked()
@@ -376,6 +384,10 @@ function legsClicked()
 	{
 		player.buttonSelected = "LEGS";
 		processGameLogic();
+	}
+	else
+	{
+		alert("Combat buttons not active!")
 	}
 }
 
@@ -392,6 +404,10 @@ function downClicked()
 		player.iconY = gridCoordinatesY[player.YIndex]
 		checkforBattle()
 	}
+	else
+	{
+		alert("movement buttons not active!")
+	}	
 }
 
 function upClicked()
@@ -407,6 +423,10 @@ function upClicked()
 		player.iconY = gridCoordinatesY[player.YIndex]
 		checkforBattle()
 	}
+	else
+	{
+		alert("movement buttons not active!")
+	}	
 }
 
 function rightClicked()
@@ -422,6 +442,10 @@ function rightClicked()
 		player.iconX = gridCoordinatesX[player.XIndex]
 		checkforBattle()
 	}
+	else
+	{
+		alert("movement buttons not active!")
+	}	
 }
 
 function leftClicked()
@@ -437,4 +461,8 @@ function leftClicked()
 		player.iconX = gridCoordinatesX[player.XIndex]
 		checkforBattle()
 	}
+	else
+	{
+		alert("movement buttons not active!")
+	}	
 }
