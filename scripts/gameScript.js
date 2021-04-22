@@ -1,3 +1,4 @@
+
 // set up sprites and images
 // background
 var combatScreenImage = new Image();
@@ -54,6 +55,8 @@ combatScreenImage.onload = function()
 {
 	canvas.width = combatScreenImage.width;
 	canvas.height = combatScreenImage.height;
+	
+	splitFunction()
 }
 
 // player entity set up and creation
