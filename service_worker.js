@@ -1,10 +1,11 @@
-var cacheName = 'birdSimulator-pwa';
+var cacheName = 'simple-strat-game';
 var filesToCache = [
   '/',
-  '/index.html',
-  '/GameLoop.html',
-  '/css/style.css',
-  '/js/script.js'
+  './index.html',
+  './Game.html',
+  './style/styling.css',
+  './js/gameScript.js'
+  
 ];
 
 /* Cache contents when Offline See Cache */
