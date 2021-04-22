@@ -1,4 +1,6 @@
 
+// please please please update
+
 // set up sprites and images
 // background
 var combatScreenImage = new Image();
