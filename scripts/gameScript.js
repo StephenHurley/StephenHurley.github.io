@@ -142,6 +142,14 @@ function animateIcons() {
 
 }
 
+function update()
+{
+	if (player.numOfKills == enemies.length)
+	{
+		gameWon = true;
+	}
+	
+}
 function draw()
 {
 	// Clear Canvas
@@ -150,6 +158,14 @@ function draw()
     //console.log("Draw");
 	
 	context.clearRect(0, 0, canvas.width, canvas.height);
+	
+	if (gameWon)
+	{
+		context.drawImage(combatScreenImage, 0, 0 );
+		context.fillStyle = "#000000";
+		context.fillText("YOU WIN!", canvas.width / 4 , canvas.height / 2)
+	}
+	
 	
 	if (inCombat)
 	{
@@ -172,6 +188,7 @@ function draw()
 		else
 		{
 			context.drawImage(combatScreenImage, 0, 0 );
+			context.fillStyle = "#000000";
 			context.fillText("GAME OVER, YOU DIED", canvas.width / 4 , canvas.height / 2)
 		}
 	}
@@ -187,6 +204,7 @@ function draw()
 // after game start, loop
 function gameLoop()
 {
+	update();
     draw();
     window.requestAnimationFrame(gameLoop);
 }
