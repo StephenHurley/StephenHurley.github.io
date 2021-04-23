@@ -37,12 +37,13 @@
 <h1>Login Page</h1>
 <p1>Enter your GamerTag</p1>
 
-
-<form name="playerNameForm" action="https://stephenhurley.github.io/Game.html" method="get">
-
 <label>
+
+<form name="playerNameForm" autoComplete="off" action="https://stephenhurley.github.io/Game.html" method="get">
+<input autocomplete="false" name="hidden" type="text" style="display:none;">
+
 	GamerTag:
-    <input type="text" autocomplete="nope" value="" name="playerName">
+    <input type="text" autocomplete="off" value="" name="playerName">
     <button type="submit">Submit</button>
 </label>
 </form>
