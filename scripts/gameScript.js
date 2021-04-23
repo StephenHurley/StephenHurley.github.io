@@ -145,6 +145,7 @@ function animateIcons() {
 
 function update()
 {
+	//player killed all enemeies
 	if (player.numOfKills == enemies.length)
 	{
 		gameWon = true;
