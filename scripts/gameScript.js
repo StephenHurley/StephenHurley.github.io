@@ -246,7 +246,7 @@ function splitFunction()
 	var url = window.location.search;
 	console.log(url);
 	var result = url.split("="); // Splits string based on =
-	player.name = result[1];
+	player.name = result[2];
 }
 
 function getRandomInt(max)
