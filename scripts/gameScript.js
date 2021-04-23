@@ -31,6 +31,7 @@ var context = canvas.getContext("2d");
 // bool to control when we are in combat or the overworld
 var inCombat = false;
 
+// bool checking if game is won
 var gameWon = false;
 
 // init our "grid" for overworld
